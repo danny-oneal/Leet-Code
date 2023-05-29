@@ -1,6 +1,7 @@
+package remove_duplicates_from_sorted_array;
+
 class Solution {
     public int removeDuplicates(int[] nums) {
-        // [-1, 0, 2, 2, 3]
         int newIndex = 1;
         for (int i = 1; i < nums.length; i++) {
             if(nums[i - 1] != nums[i]) {
@@ -11,3 +12,22 @@ class Solution {
         return newIndex;
     }
 }
+
+
+/*
+
+    // [-1, 0, 2, 2, 3]
+
+    newIndex        1
+    i               1
+
+    newIndex        2
+    i               2
+
+
+
+
+
+
+
+ */
