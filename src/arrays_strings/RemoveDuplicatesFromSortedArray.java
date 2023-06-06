@@ -1,6 +1,6 @@
-package remove_duplicates_from_sorted_array;
+package arrays_strings;
 
-class Solution {
+class RemoveDuplicatesFromSortedArray {
     public int removeDuplicates(int[] nums) {
         int newIndex = 1;
         for (int i = 1; i < nums.length; i++) {

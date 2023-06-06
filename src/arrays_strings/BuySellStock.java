@@ -1,6 +1,6 @@
-package buy_sell_stock;
+package arrays_strings;
 
-public class Solution {
+public class BuySellStock {
     public static int maxProfit(int[] prices) {
         int profit = 0;
 

@@ -1,6 +1,6 @@
-package build_array_from_permutation;
+package arrays_strings;
 
-class Solution {
+class BuildArrayFromPermutation {
     public static int[] buildArray(int[] nums) {
         int[] ans = new int[nums.length];
 
